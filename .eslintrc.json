@@ -1,0 +1,23 @@
+{
+	"extends": ["plugin:prettier/recommended","plugin:react/recommended"],
+	"plugins": ["unused-imports"],
+	"rules": {
+		"react/no-unescaped-entities": "off",
+		"prettier/prettier": "error",
+		"no-console": "error",
+		"no-undef": "error",
+		"no-unused-vars": "error",
+		"react/prop-types": 0
+	}, 
+	"parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+	"ecmaFeatures": {
+      "jsx": true
+    }
+  	},
+	"env": {
+        "browser": true,
+        "node": true
+    }
+}
